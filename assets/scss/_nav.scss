@@ -1,0 +1,85 @@
+
+$family:"Unica+One";
+$headingFont:"Unica One";
+@import url("http://fonts.googleapis.com/css?family=#{$family}");
+$mainFont: "Quattrocento Sans";
+@import url("http://fonts.googleapis.com/css?family=#Quattrocento+Sans");
+
+* {
+
+}
+
+nav {
+  background-image: url("../../assets/images/got-banner.jpg");
+  color: rgba(255, 255, 255, 1);
+  width: 100%;
+}
+
+nav {
+  font-family: $headingFont;
+  letter-spacing: 3px;
+  font-weight: normal;
+  h1 {
+    text-transform: uppercase;
+  }
+  h2 {
+    text-transform: uppercase;
+  }
+  h3 {
+    font-family: $mainFont;
+  }
+}
+
+
+#chooseHouse {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.house {
+  width: 50%;
+  height: 130px;
+  padding-left: 30px;
+}
+
+.house img{
+  margin-top: 30px;
+  height: 76.9%;
+  text-align: center;
+}
+
+.house h3 {
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  vertical-align: top;
+  font-weight: normal;
+}
+.house h3:hover {
+  font-weight: bold;
+}
+
+// @media (min-width: 768px)
+// {
+// .house {
+//   width: 33.33%;
+//   height: 112px;
+// }
+// .house img {
+//   height: 82px;
+// }
+// }
+//
+// @media (min-width: 1024px)
+// {
+// .house {
+//   width: 12%;
+//   height: 192px;
+// }
+// .house img {
+//   height: 162px;
+// }
+// }
