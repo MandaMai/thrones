@@ -1,15 +1,20 @@
 /**/
-$family:"Quattrocento+Sans";
-$familyFormat:"Quattrocento Sans";
-@import url("http://fonts.googleapis.com/css?family=#{$family}");
+@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans|Unica+One');
+$headingFont:"Unica One";
+$mainFont: "Quattrocento Sans";
+$targaryen: "#a12134";
+
+* {
+  font-family: $mainFont;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
 
 body {
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  border: 0;
-  box-sizing: border-box;
-  min-width: 400px;
+  background-color: #f3f3f3;
 }
 
 @import "_nav.scss", "_stats.scss", "_comments.scss";
