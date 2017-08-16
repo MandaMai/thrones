@@ -1,0 +1,72 @@
+#profile {
+background-color: rgba(0, 0, 0, .8);
+background-image: url("../images/jon-snow.jpg");
+background-blend-mode: color;
+background-attachment: fixed;
+position: relative;
+background-position: top center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 600px;
+z-index: 1;
+padding-top: 90px;
+padding-bottom: 90px;
+color: rgba(255, 255, 255, 1);
+width: 100%;
+display: flex;
+flex-flow: row;
+flex-wrap: wrap;
+padding-left: 20px;
+padding-right: 40px;
+}
+h2 {
+  font-size: 48px;
+  font-family: $headingFont;
+  letter-spacing: 3px;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 1;
+}
+#profile .item {
+  display: flex;
+  flex-flow: column;
+  flex-wrap: wrap;
+  width: 50%;
+  h3 {
+    font-family: $headingFont;
+    font-size: 24px;
+    margin-bottom: 0;
+    font-weight: 600;
+    text-shadow: 1px 1px rgba(0,0,0,.5);
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 8px;
+  }
+
+  p {
+    font-family: $mainFont;
+    font-size: 24px;
+  }
+  img {
+    height: 64px;
+    width: 64px;
+  }
+  #houseAff {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    width: 45%;
+  }
+}
+#progress {
+  background-color: white;
+  color: black;
+  height: 30px;
+  border-radius: 20px;
+}
+#profile .item #progress p {
+
+    text-align: center;
+    font-size: 20px;
+    margin-top: 4px;
+  }
