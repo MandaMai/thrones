@@ -276,11 +276,25 @@ h2 {
   background-color: white;
   color: black;
   height: 30px;
-  border-radius: 20px; }
+  border-radius: 20px;
+  width: 360px; }
 
 #profile .item #progress p {
   text-align: center;
   font-size: 20px;
   margin-top: 4px; }
+
+/*use a mixin in this tab
+
+@mixin potato ($top-left-radius, $bottom-right-radius) {
+	Border-top-left-radius: $top-left-radius;
+	Border-bottom-right-radius: $bottom-right-radius;
+}
+
+.box {
+	@include potato (5px, 5px);
+}
+
+*/
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,12 @@
+/*use a mixin in this tab
+
+@mixin potato ($top-left-radius, $bottom-right-radius) {
+	Border-top-left-radius: $top-left-radius;
+	Border-bottom-right-radius: $bottom-right-radius;
+}
+
+.box {
+	@include potato (5px, 5px);
+}
+
+*/
