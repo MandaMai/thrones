@@ -371,8 +371,15 @@ h2 {
     margin-top: 55px; } }
 @media screen and (min-width: 1271px) {
   #menu {
-    margin-top: 134px; } }
-@media screen and (min-width: 400px) {
+    margin-top: 134px; }
+
+  nav {
+    height: 600px; }
+
+  .graph {
+    width: 33.3%;
+    margin-top: 55px; } }
+@media screen and (max-width: 856px) {
   nav {
     height: 1080px; }
 
