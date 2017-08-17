@@ -4,11 +4,15 @@ $headingFont:"Unica One";
 $mainFont: "Quattrocento Sans";
 $targaryen: "#a12134";
 
+@mixin standardize ($margin, $padding, $border) {
+margin: $margin;
+padding: $padding;
+border: $border;
+}
+ 
 * {
   font-family: $mainFont;
-  margin: 0;
-  padding: 0;
-  border: 0;
+  @include standardize (0,0,0);
   width: 100%;
   box-sizing: border-box;
 }
